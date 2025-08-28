@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://as1.ftcdn.net/jpg/04/55/19/68/1000_F_455196833_Xgk9280Uw2qZEgBgJj326vaW4jluN8lk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+main {
+  background:white;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(26, 25, 25, 0.1);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin-top: 170px;
+  border-color: black;
+}
+
+input {
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px 0;
+  width: 80%;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#check-btn { background: #007bff; color: white; }
+#reset-btn { background: #28a745; color: white; }
+
+#message {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#guess-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#guess-list li {
+  background: #f1f1f1;
+  margin: 3px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
